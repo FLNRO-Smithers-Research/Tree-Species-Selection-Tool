@@ -159,7 +159,7 @@ X1save = X1
 X1$BGC  <- as.factor(X1$BGC)
 X1=X1[,names(X1) %in% c(List,ClimateVar)]
 
-####################Kiri Final Model##################
+####################Kiri Final Model###################
 model = "KiriFinal"
 VarList = c("AHM", "bFFP","CMD.total","DD5_sp","EMT","Eref_sm","EXT","FFP","MCMT","MSP",
             "PPT_JAS","PPT_MJ","PPT06","SHM","TD","Tmax_sp","Tmin_at","Tmin_sm","Tmin_wt",
