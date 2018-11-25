@@ -195,7 +195,7 @@ save(BGCmodel,file=file)
 
 ##******OPTIONAL*********##
 
-################Do parallel version to increase speed
+################Do parallel version to increase speed (but miss out on some model metrics)
 set.seed(123321)
 coreNo <- makeCluster(detectCores() - 1)
 registerDoParallel(coreNo, cores = detectCores() - 1)
